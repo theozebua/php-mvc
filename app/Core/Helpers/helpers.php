@@ -7,8 +7,7 @@ if (!function_exists('baseUrl')) {
      */
     function baseUrl(?string $url = ''): string
     {
-        global $config;
-        return rtrim(getenv('APP_BASE_URL'), '/') . '/' . ltrim($url, '/');
+        return rtrim($_ENV['APP_BASE_URL'], '/') . '/' . ltrim($url, '/');
     }
 }
 
