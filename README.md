@@ -24,3 +24,7 @@ you are ready to build a small project.
 
 To run this project, you need to rename `.env.template` to `.env`
 and customize the variables.
+
+## License
+
+[MIT](https://github.com/theozebua/php-mvc/blob/main/LICENSE)
