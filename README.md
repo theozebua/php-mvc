@@ -18,6 +18,8 @@ you are ready to build a small project.
 
 ```bash
   git clone https://github.com/theozebua/php-mvc.git
+  cd php-mvc
+  composer install
 ```
 
 ## Environment Variables
